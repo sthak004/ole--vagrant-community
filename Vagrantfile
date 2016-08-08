@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "ole/jessie64"
-  config.vm.box_version = "0.1.3"
+  config.vm.box_version = "0.1.4"
 
   config.vm.hostname = "community"
 
