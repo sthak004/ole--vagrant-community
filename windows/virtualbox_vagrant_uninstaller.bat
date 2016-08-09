@@ -84,4 +84,6 @@ IF EXIST dumpfile.txt del dumpfile.txt
 cd ..
 RMDIR tempfolder
 
+:: finally, uninstall git
+git_uninstaller.bat
 pause
