@@ -1,9 +1,7 @@
 @echo off
 
-set USERNAME_CPY=thake
-
 cd C:\
-cd C:\Users\%USERNAME_CPY%\ole--vagrant-community\
+cd C:\Users\%USERNAME%\ole--vagrant-community\
 
 :: check status of machine: running
 vagrant status --machine-readable | grep state,running>nul
