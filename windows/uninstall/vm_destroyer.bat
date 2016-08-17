@@ -1,5 +1,6 @@
 @echo off
 
+set ORIGDIR=%cd%
 cd C:\
 cd C:\Users\%USERNAME%\ole--vagrant-community\
 
